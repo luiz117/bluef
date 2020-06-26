@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>        
+        <title>BlueFood</title>
+        <link rel="stylesheet" type="text/css" href="css/bf_estiloSistema.css"/>
+    </head>
+    <body>
+           <header>
+               <div id="divLogotipoSistema">
+                   <span id="spanAuxiliarDeAlinhamentoVertical"></span>
+                   <a href="">
+                   <img src="images/bf_logotipoSistema.png" id="imgLogotipoSistema"/>
+                </a>
+               </div>
+               <div id="divUsuarioLogado">
+                   Olá nome do usuário !                                                         
+               </div>               
+           </header>     
+           <br><br>
+           <!-- Cabeçalho fim-->  
+
+            <div>
+                <h1>Comidas</h1>                
+            </div>
+            <div>
+                <span>Pizza Mussarela</span><br/>
+                <span>Pizzas</span><br/>
+                <span>Massa fina, Mussarela, cebola</span><br/>
+                <span>R$ 45,00</span><br/>
+                <input type="button" value="Remover">
+            </div>
+            <div>
+                <span>Hamburguer</span><br/>
+                <span>Hamburguer</span><br/>
+                <span>Pão, carne 200gr, queijo, tomate, alface..</span><br/>
+                <span>R$ 45,00</span><br/>
+                <input type="button" value="Remover">                
+            </div>
+            <div>
+                Eventual mensagem de erro.                
+            </div>
+
+            <div>
+                <h2>Nova comida</h2><br/>
+                <form method="POST" action="">
+                    <fieldset>                    
+                        <label for="item">Item:</label><br/>
+                        <input type="text" id="item" name="item" placeholder="Item..."><br/>
+                        <label for="descricao">Descrição: </label><br/>
+                        <input type="text" id="descricao" name="descricao" placeholder="Descricao..."><br/>
+                        <label for="preco">Preço: </label><br/>
+                        <input type="text" id="preco" name="preco" placeholder="Preço..."><br/>
+                        <label for="categoria">Preço: </label><br/>
+                        <input type="text" id="categoria" name="categoria" placeholder="Categoria..."><br/>
+                        <label for="Destaque">Destaque: </label><br/>
+                        <input type="checkbox" id="destaque" name="destaque" placeholder="Destaque..."><br/>                                            
+                </fieldset>
+                </form>
+            </div><br/>
+            <input type="button" value="Adicionar"><br/><br/>
+            <input type="button" value="Voltar"><br/>
+            <br/><br/>
+
+
+                          <!--Rodapé -  Início-->
+                          
+    </body>
+    </html>
+

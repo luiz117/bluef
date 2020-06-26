@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>        
+        <title>BlueFood</title>
+        <link rel="stylesheet" type="text/css" href="css/bf_estiloSistema.css"/>
+    </head>
+    <body>
+           <header>
+               <div id="divLogotipoSistema">
+                   <span id="spanAuxiliarDeAlinhamentoVertical"></span>
+                   <a href="">
+                   <img src="images/bf_logotipoSistema.png" id="imgLogotipoSistema"/>
+                </a>
+               </div>
+               <div id="divUsuarioLogado">
+                   Olá nome do usuário !                                                         
+               </div>               
+           </header>     
+           <br><br>
+           <!-- Cabeçalho fim-->  
+
+            <div>
+                <h1>Relatório de Itens</h1>                
+            </div>
+
+            <div>
+                <form method="POST" action="">
+                    <fieldset>
+                        <legend>Filtros</legend> 
+                        <label for="item">Item: </label><br/>
+                        <input type="text" id="item" name="item"><br/>
+                        <label for="inicio">Início: </label><br/>
+                        <input type="date" id="inicio" name="inicio"><br/>
+                        <label for="fim">Fim: </label><br/>
+                        <input type="date" id="fim" name="fim"><br/>
+                        <input type="button" value="Buscar">
+                    </fieldset>
+                </form>
+            </div><br/><br/>
+
+            <table>
+                <tr>
+                    <th>Item</th>
+                    <th>Quantidade</th>
+                    <th>Faturamento</th>
+                </tr>
+                <tr>
+                    <td>Hamburguer</td>
+                    <td>25</td>
+                    <td>R$355,00</td>
+                </tr>
+                <tr>
+                    <td>Pizza</td>
+                    <td>134</td>
+                    <td>R$1234,00</td>
+                </tr>
+
+                <tr>
+                    <td>Salada</td>
+                    <td>20</td>
+                    <td>R$455,00</td>
+                </tr>
+                <tr>
+                    <td>Refrigerante</td>
+                    <td>20</td>
+                    <td>R$755,00</td>
+                </tr>
+                </tr>
+            </table><br/><br/>
+            <input type="button" value="Voltar"><br/>
+
+
+            <!--Rodapé -  Início-->
+                          
+    </body>
+    </html>
+
+
+
+
+

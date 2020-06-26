@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>        
+        <title>BlueFood</title>
+        <link rel="stylesheet" type="text/css" href="css/bf_estiloSistema.css"/>
+    </head>
+    <body>
+           <header>
+               <div id="divLogotipoSistema">
+                   <span id="spanAuxiliarDeAlinhamentoVertical"></span>
+                   <a href="">
+                   <img src="images/bf_logotipoSistema.png" id="imgLogotipoSistema"/>
+                </a>
+               </div>
+               <div id="divUsuarioLogado">
+                   Olá nome do usuário !                                                         
+               </div>               
+           </header>     
+           <br><br>
+           <!-- Cabeçalho fim-->  
+
+            <div>
+                <h1>Relatório de Pedidos</h1>                
+            </div>
+
+            <div>
+                <form method="POST" action="">
+                    <fieldset>
+                        <legend>Filtros</legend> 
+                        <label for="pedido">Pedido: </label><br/>
+                        <input type="text" id="pedido" name="pedido"><br/>
+                        <label for="inicio">Início: </label><br/>
+                        <input type="date" id="inicio" name="inicio"><br/>
+                        <label for="fim">Fim: </label><br/>
+                        <input type="date" id="fim" name="fim"><br/>
+                        <input type="button" value="Buscar">
+                    </fieldset>
+                </form>
+            </div><br/><br/>
+
+            <table>
+                <tr>
+                    <th>Pedido</th>
+                    <th>Nome</th>
+                    <th>Endereço</th>
+                    <th>Valor</th>
+                </tr>
+                <tr>
+                    <td><input type="button" value="#35334"></td>
+                    <td>Joao</td>
+                    <td>Rua X</td>
+                    <td>R$55,00</td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="#3452"></td>
+                    <td>Henrique</td>
+                    <td>Avenida bairro </td>
+                    <td>R$155,00</td>
+                </tr>
+
+                <tr>
+                    <td><input type="button" value="#35334"></td>
+                    <td>Carlos</td>
+                    <td>alameda X</td>
+                    <td>R$55,00</td>
+                </tr>                
+                </tr>
+            </table><br/><br/>
+            <input type="button" value="Voltar"><br/>
+
+
+            <!--Rodapé -  Início-->
+                          
+    </body>
+    </html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>        
+        <title>BlueFood</title>
+        <link rel="stylesheet" type="text/css" href="css/bf_estiloSistema.css"/>
+    </head>
+    <body>
+           <header>
+               <div id="divLogotipoSistema">
+                   <span id="spanAuxiliarDeAlinhamentoVertical"></span>
+                   <a href="index.html">
+                   <img src="images/bf_logotipoSistema.png" id="imgLogotipoSistema"/>
+                </a>
+               </div>
+               <div id="divUsuarioLogado">
+                   Olá nome do usuário !                   
+                   <br/>
+                   <img src="images/bf_iconeCarrinho.png" id="imgIconeCarrinho"/>
+               </div>               
+           </header>     
+           <br><br>
+           <!-- Cabeçalho fim-->   
+
+           <div>            
+            <img src="images/sys_restauranteSbubby.png" id="imgPedidoCliente"/><br/>            
+            <span>Nome do restaurante</span>
+            <br/>
+            <span>Categoria de comida</span>
+            <br/>
+            <span>Tempo médio de entrega: 40m</span>
+            <br/>
+            <span>Taxa de Entrega: R$ 15,00</span>
+            <br/>
+        </div>
+
+
+        <div>
+            <h1>Opções</h1>
+            <fieldset>
+                <legend>Filtros</legend>
+                <input type="button" value="Promoções"/>
+                <input type="button" value="Saladas"/>
+                <input type="button" value="Bebidas"/>
+                <input type="button" value="Pizzas"/>
+            </fieldset><br/>
+        </div>
+
+        <div>
+            <h1>Destaques</h1>
+
+        </div>
+
+
+        <div>
+
+            <div>
+                <img src="images/sys_comidaPizzaCalabresa.png" id="imgPedidoCliente"/>
+                <br/>
+                <span>Pizza de Calabresa</span>
+                <br/>
+                <span>Massa fina, queijo, calabresa e pimentas</span>
+                <br/>
+                <span>R$45,00</span>
+                <br/>
+                <form method="POST" action="">
+                    <label for="quantidade">Quantidade: </label>
+                    <br/>
+                    <select name="quantidade" id="quantidade">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                    <br/><br/>
+                    Observações:
+                    <br/>
+                    <textarea>
+                        
+                    </textarea>
+                </form>
+                <br/><br/>
+                <input type="button" name="" value="Adicionar ao carrinho"/>
+            </div>
+
+            <div>
+                <img src="images/sys_comidaHamburguer.png" id="imgPedidoCliente"/>
+                <br/>
+                <span>Hamburguer</span>
+                <br/>
+                <span>Pão, Hamburguer 200gr, queijo, tomate, alface e bacon</span>
+                <br/>
+                <span>R$30,00</span>
+                <br/>
+                <form method="POST" action="">
+                    <label for="quantidade">Quantidade: </label>
+                    <br/>
+                    <select name="quantidade" id="quantidade">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                    <br/><br/>
+                    Observações:
+                    <br/>
+                    <textarea>
+                        
+                    </textarea>
+                </form>
+                <br/><br/>
+                <input type="button" name="" value="Adicionar ao carrinho"/>
+            </div>
+        </div>
+        <input type="button" value="Voltar" onclick="history.back;"/>
+
+
+
+           
+               <!--Rodapé -  Início-->
+    </body>
+    </html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>        
+        <title>BlueFood</title>
+        <link rel="stylesheet" type="text/css" href="css/bf_estiloSistema.css"/>
+        <script>
+            function isNumberKey(evt)
+            {
+                var charCode = (evt.which) ? evt.which : event.keyCode;
+
+                if (charCode > 31 && (charCode < 48 || charCode > 57))
+                 return false;
+
+                return true;
+            }
+
+        </script>
+
+    </head>
+    <body>
+           <header>
+               <div id="divLogotipoSistema">
+                   <span id="spanAuxiliarDeAlinhamentoVertical"></span>
+                   <a href="">
+                   <img src="images/bf_logotipoSistema.png" id="imgLogotipoSistema"/>
+                </a>
+               </div>
+               <div id="divUsuarioLogado">
+                   Olá nome do usuário !                   
+                   <br/>
+                   <img src="images/bf_iconeCarrinho.png" id="imgIconeCarrinho"/>
+               </div>               
+           </header>     
+           <br><br>
+           <!-- Cabeçalho fim-->   
+
+           <div>
+               <h1>Seu pedido</h1>
+               <img src="images/sys_restauranteSbubby.png" id="imgPedido"/>
+           </div>
+           <br/><br/>
+
+           <div>
+               <span>Pizza Calabresa</span><br/>
+               <span>Qtde: 1</span><br/>
+               <span>(exemplo de observação)</span><br/>
+               <span>R$ 35,00</span><br/><br/>
+               <input type="button" value="Remover"/>
+           </div>
+           <br/><br/>
+
+           <div>
+            <span>Hamburguer</span><br/>
+            <span>Qtde: 3</span><br/>
+            <span>(exemplo de observação)</span><br/>
+            <span>R$ 55,00</span><br/><br/>
+            <input type="button" value="Remover"/>
+        </div>
+        <br/><br/>
+
+
+        <div>
+            <span>Taxa de entrega</span><br/>
+            <span>R$11,00</span>            
+        </div>
+        <br/><br/>
+
+        <div>
+            <span>Total:</span><br>
+            <span>R$101,00</span>
+        </div>
+        <br/><br/>
+
+        <div>
+            <span>Cartão de Crédito</span><br/>
+            <input type="text" name="cartao" id="inputLargo" onkeypress="return  isNumberKey(event)"/>
+        </div>
+
+        <div>
+            <input type="button" value="Enviar Pedido"/>
+            <input type="button" value="Voltar" onclick="history.back;"/>
+        </div>
+
+        
+
+                   
+               <!--Rodapé -  Início-->
+    </body>
+    </html>
